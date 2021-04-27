@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Chapter02-Button/Chapter02-Button.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MyMemory/MyMemory.xcodeproj">
    </FileRef>
 </Workspace>
