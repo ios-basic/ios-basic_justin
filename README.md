@@ -6,7 +6,7 @@
 일정
 - [x] 4/25  chapter 00 오리엔테이션
 - [x] 4/26	Chapter 01 기본 기능 다루기
-- [ ] 4/27	Chapter 02 UI 커스터마이징(1)
+- [x] 4/27	Chapter 02 UI 커스터마이징(1)
 - [ ] 4/28	Chapter 03 UI 커스터마이징(2)
 - [ ] 4/29	Chapter 03 UI 커스터마이징(2)
 - [ ] 4/30	Chapter 04 사이드 바 메뉴 구현
