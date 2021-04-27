@@ -19,8 +19,15 @@ class ViewController: UIViewController {
         btn.center = CGPoint(x: self.view.frame.size.width/2, y: 100)
 
         self.view.addSubview(btn)
+        
+        btn.addTarget(self, action: #selector(btnOnClick(_:)), for: .touchUpInside)
     }
 
+    @objc func btnOnClick(_ sender: Any){
+        if let btn = sender as? UIButton {
+            btn.setTitle("It is clicked!", for: .normal)
+        }
+    }
 
 }
 
