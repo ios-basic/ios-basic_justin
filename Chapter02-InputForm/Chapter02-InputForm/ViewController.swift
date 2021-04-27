@@ -18,25 +18,27 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         self.navigationItem.title = "설정"
         
+        let customFont = UIFont(name: "SDMiSaeng", size: 30)
+        
         let lblEmail = UILabel()
         lblEmail.frame = CGRect(x: 30, y: 100, width: 100, height: 30)
         lblEmail.text = "이메일"
         
-        lblEmail.font = UIFont.systemFont(ofSize: 14)
+        lblEmail.font = customFont
         
         self.view.addSubview(lblEmail)
         
         let lblUpdate = UILabel()
         lblUpdate.frame = CGRect(x: 30, y: 150, width: 100, height: 30)
         lblUpdate.text = "자동갱신"
-        lblUpdate.font = UIFont.systemFont(ofSize: 14)
+        lblUpdate.font = customFont
         
         self.view.addSubview(lblUpdate)
         
         let lblInterval = UILabel()
         lblInterval.frame = CGRect(x: 30, y: 200, width: 100, height: 30)
         lblInterval.text = "갱신주기"
-        lblInterval.font = UIFont.systemFont(ofSize: 14)
+        lblInterval.font = customFont
         
         self.view.addSubview(lblInterval)
         
@@ -86,6 +88,10 @@ class ViewController: UIViewController {
         self.paramUpdate.addTarget(self, action: #selector(presentUpdateValue(_:)), for: .valueChanged)
         self.paramInterval.addTarget(self, action: #selector(presentIntervalValue(_:)), for: .valueChanged)
         
+        let subminBtn = UIBarButtonItem(barButtonSystemItem: .compose, target: self, action: #selector(submit(_:)))
+        
+        self.navigationItem.rightBarButtonItem = subminBtn
+        
     }
     
     @objc func presentUpdateValue(_ sender: UISwitch){
@@ -94,6 +100,15 @@ class ViewController: UIViewController {
 
     @objc func presentIntervalValue(_ sender: UIStepper){
         self.txtInterval.text = ("\( Int(sender.value) )분마다")
+    }
+    
+    @objc func submit(_ sender: Any){
+        let rvc = ReadViewController()
+        rvc.pEmail = self.paramEmail.text
+        rvc.pUpdate = self.paramUpdate.isOn
+        rvc.pInterval = self.paramInterval.value
+        
+        self.navigationController?.pushViewController(rvc, animated: true)
     }
 
 }
