@@ -19,7 +19,7 @@ class MemoListVC: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let row = self.appDelegate.memolist[indexPath.row]
         
-        let cellId = row.image == nil ? "memoCell" : "memoCellWithImage"
+        let cellId = row.image == nil ? "memoCell" : "MemoCellWithImage"
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! MemoCell
         
