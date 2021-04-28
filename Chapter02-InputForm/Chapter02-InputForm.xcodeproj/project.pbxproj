@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7D24219263915F600AF8559 /* SDMiSaeng.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7D24218263915F100AF8559 /* SDMiSaeng.ttf */; };
 		E7F3A59C26384EE500BCEC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3A59B26384EE500BCEC44 /* AppDelegate.swift */; };
 		E7F3A59E26384EE500BCEC44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3A59D26384EE500BCEC44 /* SceneDelegate.swift */; };
 		E7F3A5A026384EE500BCEC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3A59F26384EE500BCEC44 /* ViewController.swift */; };
@@ -14,10 +15,10 @@
 		E7F3A5A526384EE600BCEC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F3A5A426384EE600BCEC44 /* Assets.xcassets */; };
 		E7F3A5A826384EE600BCEC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F3A5A626384EE600BCEC44 /* LaunchScreen.storyboard */; };
 		E7F3A5B1263861A800BCEC44 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3A5B0263861A800BCEC44 /* ReadViewController.swift */; };
-		E7F3A5B42638649400BCEC44 /* SDMiSaeng.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7F3A5B32638642F00BCEC44 /* SDMiSaeng.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7D24218263915F100AF8559 /* SDMiSaeng.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SDMiSaeng.ttf; sourceTree = "<group>"; };
 		E7F3A59826384EE500BCEC44 /* Chapter02-InputForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter02-InputForm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F3A59B26384EE500BCEC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7F3A59D26384EE500BCEC44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		E7F3A5A726384EE600BCEC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7F3A5A926384EE600BCEC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F3A5B0263861A800BCEC44 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
-		E7F3A5B32638642F00BCEC44 /* SDMiSaeng.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SDMiSaeng.ttf; path = ../../../../../Desktop/SDMiSaeng.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		E7F3A59A26384EE500BCEC44 /* Chapter02-InputForm */ = {
 			isa = PBXGroup;
 			children = (
-				E7F3A5B32638642F00BCEC44 /* SDMiSaeng.ttf */,
+				E7D24218263915F100AF8559 /* SDMiSaeng.ttf */,
 				E7F3A59B26384EE500BCEC44 /* AppDelegate.swift */,
 				E7F3A59D26384EE500BCEC44 /* SceneDelegate.swift */,
 				E7F3A59F26384EE500BCEC44 /* ViewController.swift */,
@@ -130,7 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F3A5B42638649400BCEC44 /* SDMiSaeng.ttf in Resources */,
+				E7D24219263915F600AF8559 /* SDMiSaeng.ttf in Resources */,
 				E7F3A5A826384EE600BCEC44 /* LaunchScreen.storyboard in Resources */,
 				E7F3A5A526384EE600BCEC44 /* Assets.xcassets in Resources */,
 				E7F3A5A326384EE500BCEC44 /* Main.storyboard in Resources */,
