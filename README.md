@@ -12,7 +12,7 @@
 >- [x] 04/28 Chapter 02 (2)
 
 >- [x] 04/29 Chapter 03 (1)
->- [x] 04/30 Chapter 03 (2)
+>- [ ] 04/30 Chapter 03 (2)
 >- [ ] 05/01 Chapter 03 (3)
 
 >- [ ] 05/02 Chapter 04 (1)
