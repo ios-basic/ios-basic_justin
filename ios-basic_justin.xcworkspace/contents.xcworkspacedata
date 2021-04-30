@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Chapter03-NavigationBar/Chapter03-NavigationBar.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Chapter03-TabBar/Chapter03-TabBar.xcodeproj">
    </FileRef>
    <FileRef
