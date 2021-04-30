@@ -17,6 +17,36 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        if let tbC = self.window?.rootViewController as? UITabBarController {
+            if let tbItems = tbC.tabBar.items {
+                tbItems[0].image = UIImage(named: "designbump")?.withRenderingMode(.alwaysOriginal)
+                tbItems[1].image = UIImage(named: "rss")?.withRenderingMode(.alwaysOriginal)
+                tbItems[2].image = UIImage(named: "facebook")?.withRenderingMode(.alwaysOriginal)
+                
+                for tbItem in tbItems {
+                    let image = UIImage(named: "checkmark")?.withRenderingMode(.alwaysOriginal)
+                    tbItem.selectedImage = image
+                }
+                
+                let tbItemProxy = UITabBarItem.appearance()
+                
+                tbItemProxy.setTitleTextAttributes([.foregroundColor: UIColor.gray], for: .disabled)
+
+                tbItemProxy.setTitleTextAttributes([.foregroundColor: UIColor.red], for: .selected)
+
+                tbItemProxy.setTitleTextAttributes([.font: UIFont.systemFont(ofSize: 15)], for: .normal)
+                
+                tbItems[0].title = "calendar"
+                tbItems[1].title = "file"
+                tbItems[2].title = "photo"
+            }
+            
+            tbC.tabBar.tintColor = .white
+            tbC.tabBar.unselectedItemTintColor = .gray
+            
+            tbC.tabBar.barTintColor = UIColor.brown
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

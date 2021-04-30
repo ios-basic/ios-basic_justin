@@ -24,7 +24,6 @@ class ThirdViewController: UIViewController {
         
         self.view.addSubview(title)
         
-        self.tabBarItem.image = UIImage(named: "photo.png")
-        self.tabBarItem.title = "photo"
+    
     }
 }

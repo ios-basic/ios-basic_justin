@@ -23,7 +23,5 @@ class FirstViewController: UIViewController {
         
         self.view.addSubview(title)
         
-        self.tabBarItem.image = UIImage(named: "calendar.png")
-        self.tabBarItem.title = "Calendar"
     }
 }
