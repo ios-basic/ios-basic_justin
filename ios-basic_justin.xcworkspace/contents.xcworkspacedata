@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Chapter03-CSButton/Chapter03-CSButton.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Chapter03-Alert/Chapter03-Alert.xcodeproj">
    </FileRef>
    <FileRef
