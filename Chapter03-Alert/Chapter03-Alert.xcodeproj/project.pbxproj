@@ -13,6 +13,8 @@
 		E70A7EBB263D078600A70F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A7EB9263D078600A70F1D /* Main.storyboard */; };
 		E70A7EBD263D078700A70F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70A7EBC263D078700A70F1D /* Assets.xcassets */; };
 		E70A7EC0263D078700A70F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A7EBE263D078700A70F1D /* LaunchScreen.storyboard */; };
+		E72D7CA4263EA70F00098233 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D7CA3263EA70F00098233 /* MapKitViewController.swift */; };
+		E7AE327A263D0B400076EE1F /* MapAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE3279263D0B400076EE1F /* MapAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E70A7EBC263D078700A70F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E70A7EBF263D078700A70F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E70A7EC1263D078700A70F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72D7CA3263EA70F00098233 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		E7AE3279263D0B400076EE1F /* MapAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E70A7EB5263D078600A70F1D /* SceneDelegate.swift */,
 				E70A7EB7263D078600A70F1D /* ViewController.swift */,
 				E70A7EB9263D078600A70F1D /* Main.storyboard */,
+				E7AE3279263D0B400076EE1F /* MapAlertViewController.swift */,
+				E72D7CA3263EA70F00098233 /* MapKitViewController.swift */,
 				E70A7EBC263D078700A70F1D /* Assets.xcassets */,
 				E70A7EBE263D078700A70F1D /* LaunchScreen.storyboard */,
 				E70A7EC1263D078700A70F1D /* Info.plist */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AE327A263D0B400076EE1F /* MapAlertViewController.swift in Sources */,
+				E72D7CA4263EA70F00098233 /* MapKitViewController.swift in Sources */,
 				E70A7EB8263D078600A70F1D /* ViewController.swift in Sources */,
 				E70A7EB4263D078600A70F1D /* AppDelegate.swift in Sources */,
 				E70A7EB6263D078600A70F1D /* SceneDelegate.swift in Sources */,
