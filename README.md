@@ -14,7 +14,7 @@
 >- [x] 04/29 Chapter 03 (1)
 >- [x] 04/30 Chapter 03 (2)
 >- [x] 05/01 Chapter 03 (3)
->- [ ] 05/02 Chapter 03 (4)
+>- [x] 05/02 Chapter 03 (4)
 
 >- [ ] 05/03 Chapter 04 (1)
 >- [ ] 05/04 Chapter 04 (2)
