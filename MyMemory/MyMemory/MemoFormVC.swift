@@ -15,10 +15,17 @@ class MemoFormVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
     @IBOutlet weak var preview: UIImageView!
     
     @IBAction func save(_ sender: Any) {
+        
+        let alertV = UIViewController()
+        let iconImage = UIImage(named: "warning-icon-60")
+        alertV.view = UIImageView(image: iconImage)
+        alertV.preferredContentSize = iconImage?.size ?? CGSize.zero
+        
         guard self.contents.text?.isEmpty == false else {
             let alert = UIAlertController(title: nil, message: "내용을 입력해주세요", preferredStyle: .alert)
             
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            alert.setValue(alertV, forKey: "contentViewController")
             self.present(alert, animated: true)
             
             return
