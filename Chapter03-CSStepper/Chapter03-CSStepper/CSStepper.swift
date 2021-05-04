@@ -13,7 +13,13 @@ class CSStepper: UIView {
     public var leftBtn = UIButton(type: .system)
     public var rightBtn = UIButton(type: .system)
     public var centerLabel = UILabel()
-    public var value: Int = 0
+    
+    //스테퍼의 현재값을 저장할 변수
+    public var value: Int = 0 {
+        didSet {
+            self.centerLabel.text = String(value)
+        }
+    }
     
     let borderWidth: CGFloat = 0.5
     let bordColor = UIColor.blue.cgColor
@@ -53,6 +59,9 @@ class CSStepper: UIView {
         self.centerLabel.layer.borderWidth = borderWidth
         self.centerLabel.layer.borderColor = bordColor
         
+        self.leftBtn.addTarget(self, action: #selector(valueChange(_:)), for: .touchUpInside)
+        self.rightBtn.addTarget(self, action: #selector(valueChange(_:)), for: .touchUpInside)
+        
         self.addSubview(self.leftBtn)
         self.addSubview(self.centerLabel)
         self.addSubview(self.rightBtn)
@@ -68,5 +77,9 @@ class CSStepper: UIView {
         self.leftBtn.frame = CGRect(x: 0, y: 0, width: btnWidth, height: btnWidth)
         self.centerLabel.frame = CGRect(x: btnWidth, y: 0, width: lblWidth, height: btnWidth)
         self.rightBtn.frame = CGRect(x: btnWidth+lblWidth, y: 0, width: btnWidth, height: btnWidth)
+    }
+    
+    @objc public func valueChange(_ sender: UIButton){
+        self.value += sender.tag
     }
 }
