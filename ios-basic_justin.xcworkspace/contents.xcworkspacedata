@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Chapter04-SideBar/Chapter04-SideBar.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Chapter03-CSStepper/Chapter03-CSStepper.xcodeproj">
    </FileRef>
    <FileRef
