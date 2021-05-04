@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154C1E48264124D30082227F /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154C1E47264124D30082227F /* CSLogButton.swift */; };
+		154C1E4B26412A7A0082227F /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 154C1E4A26412A7A0082227F /* button-bg.png */; };
 		E70CA1CC263700AD00385A9C /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70CA1CB263700AD00385A9C /* MemoFormVC.swift */; };
 		E70CA1CF263700B900385A9C /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70CA1CE263700B900385A9C /* MemoReadVC.swift */; };
 		E70CA1D32637011800385A9C /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70CA1D22637011800385A9C /* MemoListVC.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		154C1E47264124D30082227F /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
+		154C1E4A26412A7A0082227F /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg.png"; sourceTree = "<group>"; };
 		E70CA1CB263700AD00385A9C /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
 		E70CA1CE263700B900385A9C /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		E70CA1D22637011800385A9C /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
@@ -47,9 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		154C1E4926412A590082227F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				154C1E4A26412A7A0082227F /* button-bg.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		E79A44692635B7FE0032F38B = {
 			isa = PBXGroup;
 			children = (
+				154C1E4926412A590082227F /* Resource */,
 				E79A44742635B7FE0032F38B /* MyMemory */,
 				E79A44732635B7FE0032F38B /* Products */,
 			);
@@ -73,6 +86,7 @@
 				E79A44832635B7FF0032F38B /* LaunchScreen.storyboard */,
 				E79A44862635B7FF0032F38B /* Info.plist */,
 				E79A447E2635B7FE0032F38B /* MyMemory.xcdatamodeld */,
+				154C1E47264124D30082227F /* CSLogButton.swift */,
 				E70CA1CB263700AD00385A9C /* MemoFormVC.swift */,
 				E70CA1D22637011800385A9C /* MemoListVC.swift */,
 				E70CA1D52637014800385A9C /* MemoCell.swift */,
@@ -141,6 +155,7 @@
 			files = (
 				E79A44852635B7FF0032F38B /* LaunchScreen.storyboard in Resources */,
 				E79A44822635B7FF0032F38B /* Assets.xcassets in Resources */,
+				154C1E4B26412A7A0082227F /* button-bg.png in Resources */,
 				E79A447D2635B7FE0032F38B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154C1E48264124D30082227F /* CSLogButton.swift in Sources */,
 				E70CA1D62637014800385A9C /* MemoCell.swift in Sources */,
 				E70CA1D92637022700385A9C /* MemoData.swift in Sources */,
 				E70CA1D32637011800385A9C /* MemoListVC.swift in Sources */,
