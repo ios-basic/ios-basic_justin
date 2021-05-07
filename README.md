@@ -16,11 +16,11 @@
 >- [x] 05/01 Chapter 03 (3)
 >- [x] 05/02 Chapter 03 (4)
 
->- [ ] 05/03 Chapter 04 (1)
->- [ ] 05/04 Chapter 04 (2)
+>- [x] 05/03 Chapter 04 (1)
+>- [x] 05/04 Chapter 04 (2)
 
->- [ ] 05/05 Chapter 05 (1)
->- [ ] 05/06 Chapter 05 (2)
+>- [x] 05/05 Chapter 05 (1)
+>- [x] 05/06 Chapter 05 (2)
 
 >- [ ] 05/07 Chapter 06 (1)
 >- [ ] 05/08 Chapter 06 (2)
