@@ -321,10 +321,10 @@
             </objects>
             <point key="canvasLocation" x="-2754" y="-33"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Side BarVC-->
         <scene sceneID="IVc-WV-4dm">
             <objects>
-                <tableViewController id="Meg-h0-evJ" sceneMemberID="viewController">
+                <tableViewController id="Meg-h0-evJ" customClass="SideBarVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nNK-pb-MHT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
