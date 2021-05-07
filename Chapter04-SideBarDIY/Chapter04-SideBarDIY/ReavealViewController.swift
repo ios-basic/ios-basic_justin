@@ -28,6 +28,9 @@ class ReavealViewController: UIViewController {
             self.addChild(vc)
             self.view.addSubview(vc.view)
             vc.didMove(toParent: self)
+            
+            let frontVC = vc.viewControllers[0] as? FrontViewController
+            frontVC?.delegate = self
         }
     }
     
