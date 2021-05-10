@@ -22,14 +22,15 @@
 >- [x] 05/05 Chapter 05 (1)
 >- [x] 05/06 Chapter 05 (2)
 
->- [ ] 05/07 Chapter 06 (1)
->- [ ] 05/08 Chapter 06 (2)
+>- [x] 05/07 Chapter 06 (1)
+>- [x] 05/08 Chapter 06 (2)
 >- [ ] 05/09 Chapter 06 (3)
+>- [ ] 05/10 Chapter 06 (4)
 
->- [ ] 05/10 Chapter 07 (1)
->- [ ] 05/11 Chapter 07 (2)
->- [ ] 05/12 Chapter 07 (3)
+>- [ ] 05/11 Chapter 07 (1)
+>- [ ] 05/12 Chapter 07 (2)
+>- [ ] 05/13 Chapter 07 (3)
 
->- [ ] 05/13 Chapter 08 (1)
->- [ ] 05/14 Chapter 08 (2)
->- [ ] 05/15 Chapter 08 (3)
+>- [ ] 05/14 Chapter 08 (1)
+>- [ ] 05/15 Chapter 08 (2)
+>- [ ] 05/16 Chapter 08 (3)
