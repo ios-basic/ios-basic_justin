@@ -92,6 +92,9 @@
                                                         <segment title="남"/>
                                                         <segment title="여"/>
                                                     </segments>
+                                                    <connections>
+                                                        <action selector="changeSex:" destination="baw-5U-dc3" eventType="valueChanged" id="xW7-gq-vPk"/>
+                                                    </connections>
                                                 </segmentedControl>
                                             </subviews>
                                             <constraints>
@@ -118,6 +121,9 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dem-Oc-O7F">
                                                     <rect key="frame" x="345" y="6.5" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="changeMarried:" destination="baw-5U-dc3" eventType="valueChanged" id="Kgl-TZ-QA9"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                             <constraints>
@@ -137,6 +143,9 @@
                     <navigationItem key="navigationItem" title="사용자 정보" id="9bm-Ur-eMV"/>
                     <connections>
                         <outlet property="account" destination="q0a-mI-gS5" id="9if-uN-8Yj"/>
+                        <outlet property="married" destination="Dem-Oc-O7F" id="g1E-cm-6cM"/>
+                        <outlet property="name" destination="8Bx-dY-YnP" id="9uJ-hW-1Kf"/>
+                        <outlet property="sex" destination="UpN-hE-W69" id="Y9b-s2-tVv"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EJa-pq-VcU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
