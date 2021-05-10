@@ -34,6 +34,7 @@
 		E79A44802635B7FE0032F38B /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E79A447E2635B7FE0032F38B /* MyMemory.xcdatamodeld */; };
 		E79A44822635B7FF0032F38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79A44812635B7FF0032F38B /* Assets.xcassets */; };
 		E79A44852635B7FF0032F38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79A44832635B7FF0032F38B /* LaunchScreen.storyboard */; };
+		E7A0C037264902320014BC7F /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A0C036264902320014BC7F /* UserInfoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		E79A44812635B7FF0032F38B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79A44842635B7FF0032F38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E79A44862635B7FF0032F38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A0C036264902320014BC7F /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				154C1E47264124D30082227F /* CSLogButton.swift */,
 				E70CA1CB263700AD00385A9C /* MemoFormVC.swift */,
 				E70CA1D22637011800385A9C /* MemoListVC.swift */,
+				E7A0C036264902320014BC7F /* UserInfoManager.swift */,
 				E70CA1D52637014800385A9C /* MemoCell.swift */,
 				E7706D5E264568D300B859D8 /* SideBarVC.swift */,
 				E7706D6026456ECB00B859D8 /* ProfileVC.swift */,
@@ -236,6 +239,7 @@
 				E70CA1CF263700B900385A9C /* MemoReadVC.swift in Sources */,
 				E7706D4B2645639900B859D8 /* SWRevealViewController.m in Sources */,
 				E79A44762635B7FE0032F38B /* AppDelegate.swift in Sources */,
+				E7A0C037264902320014BC7F /* UserInfoManager.swift in Sources */,
 				E79A44782635B7FE0032F38B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
