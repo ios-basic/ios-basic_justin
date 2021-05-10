@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Chapter05-CustomPlist/Chapter05-CustomPlist.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Chapter05-UserDefaults/Chapter05-UserDefaults.xcodeproj">
    </FileRef>
    <FileRef
