@@ -15,10 +15,14 @@ class ViewController: UIViewController {
         // 컴파일된 SQL을 담는 객체
         var stmt: OpaquePointer? = nil
         
-//        let fileMgr = FileManager()
-//        let docPathURL = fileMgr.urls(for: .documentDirectory, in: .userDomainMask).first!
-//        let dbPath = docPathURL.appendingPathComponent("db.sqlite").path
-        let dbPath = "/Users/dongwookjung/db.sqlite"
+        let fileMgr = FileManager()
+        let docPathURL = fileMgr.urls(for: .documentDirectory, in: .userDomainMask).first!
+        let dbPath = try! docPathURL.appendingPathComponent("db.sqlite").path
+        
+        if fileMgr.fileExists(atPath: dbPath) == false {
+            let dbSource = Bundle.main.path(forResource: "db", ofType: "sqlite")
+            try! fileMgr.copyItem(atPath: dbSource!, toPath: dbPath)
+        }
         
         let sql = "CREATE TABLE IF NOT EXISTS sequence (num INTEGER)"
         
