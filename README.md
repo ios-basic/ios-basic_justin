@@ -24,7 +24,7 @@
 
 >- [x] 05/07 Chapter 06 (1)
 >- [x] 05/08 Chapter 06 (2)
->- [ ] 05/09 Chapter 06 (3)
+>- [x] 05/09 Chapter 06 (3)
 >- [ ] 05/10 Chapter 06 (4)
 
 >- [ ] 05/11 Chapter 07 (1)
