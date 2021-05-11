@@ -44,6 +44,7 @@
 		E700711F264A555300C8D267 = {
 			isa = PBXGroup;
 			children = (
+				E7007142264A55CC00C8D267 /* Chapter06-SQLite3-Bridging-Header.h */,
 				E700712A264A555300C8D267 /* Chapter06-SQLite3 */,
 				E7007129264A555300C8D267 /* Products */,
 				E700713F264A558A00C8D267 /* Frameworks */,
@@ -61,7 +62,6 @@
 		E700712A264A555300C8D267 /* Chapter06-SQLite3 */ = {
 			isa = PBXGroup;
 			children = (
-				E7007142264A55CC00C8D267 /* Chapter06-SQLite3-Bridging-Header.h */,
 				E700712B264A555300C8D267 /* AppDelegate.swift */,
 				E700712D264A555300C8D267 /* SceneDelegate.swift */,
 				E700712F264A555300C8D267 /* ViewController.swift */,
