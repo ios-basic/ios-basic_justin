@@ -21,6 +21,7 @@
 		E75918ED264A69DF00DD51D1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E75918E8264A69DF00DD51D1 /* FMDatabase.m */; };
 		E75918EF264A6BB400DD51D1 /* DepartmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */; };
 		E75918F1264A6BC800DD51D1 /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */; };
+		E75918F3264A721000DD51D1 /* hr.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E75918F2264A721000DD51D1 /* hr.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		E75918E8264A69DF00DD51D1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListVC.swift; sourceTree = "<group>"; };
 		E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
+		E75918F2264A721000DD51D1 /* hr.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = hr.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				E75918C5264A698000DD51D1 /* AppDelegate.swift */,
 				E75918C7264A698000DD51D1 /* SceneDelegate.swift */,
+				E75918F2264A721000DD51D1 /* hr.sqlite */,
 				E75918C9264A698000DD51D1 /* ViewController.swift */,
 				E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */,
 				E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */,
@@ -183,6 +186,7 @@
 				E75918D2264A698200DD51D1 /* LaunchScreen.storyboard in Resources */,
 				E75918CF264A698200DD51D1 /* Assets.xcassets in Resources */,
 				E75918CD264A698000DD51D1 /* Main.storyboard in Resources */,
+				E75918F3264A721000DD51D1 /* hr.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
