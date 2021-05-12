@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E75918C6264A698000DD51D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918C5264A698000DD51D1 /* AppDelegate.swift */; };
 		E75918C8264A698000DD51D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918C7264A698000DD51D1 /* SceneDelegate.swift */; };
-		E75918CA264A698000DD51D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918C9264A698000DD51D1 /* ViewController.swift */; };
 		E75918CD264A698000DD51D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75918CB264A698000DD51D1 /* Main.storyboard */; };
 		E75918CF264A698200DD51D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75918CE264A698200DD51D1 /* Assets.xcassets */; };
 		E75918D2264A698200DD51D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75918D0264A698200DD51D1 /* LaunchScreen.storyboard */; };
@@ -21,16 +20,15 @@
 		E75918ED264A69DF00DD51D1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E75918E8264A69DF00DD51D1 /* FMDatabase.m */; };
 		E75918EF264A6BB400DD51D1 /* DepartmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */; };
 		E75918F1264A6BC800DD51D1 /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */; };
-		E75918F3264A721000DD51D1 /* hr.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E75918F2264A721000DD51D1 /* hr.sqlite */; };
 		E75918F7264A72F800DD51D1 /* DepartmentDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918F6264A72F800DD51D1 /* DepartmentDAO.swift */; };
 		E75918F9264A78FC00DD51D1 /* EmployeeDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918F8264A78FC00DD51D1 /* EmployeeDAO.swift */; };
+		E7D841E8264BB14E001CD8F9 /* hr.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E7D841E7264BB14E001CD8F9 /* hr.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E75918C2264A698000DD51D1 /* Chapter06-HR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter06-HR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75918C5264A698000DD51D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E75918C7264A698000DD51D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E75918C9264A698000DD51D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E75918CC264A698000DD51D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E75918CE264A698200DD51D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75918D1264A698200DD51D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,9 +48,9 @@
 		E75918E8264A69DF00DD51D1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListVC.swift; sourceTree = "<group>"; };
 		E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
-		E75918F2264A721000DD51D1 /* hr.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = hr.sqlite; sourceTree = "<group>"; };
 		E75918F6264A72F800DD51D1 /* DepartmentDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDAO.swift; sourceTree = "<group>"; };
 		E75918F8264A78FC00DD51D1 /* EmployeeDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDAO.swift; sourceTree = "<group>"; };
+		E7D841E7264BB14E001CD8F9 /* hr.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = hr.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				E75918C5264A698000DD51D1 /* AppDelegate.swift */,
+				E7D841E7264BB14E001CD8F9 /* hr.sqlite */,
 				E75918C7264A698000DD51D1 /* SceneDelegate.swift */,
-				E75918F2264A721000DD51D1 /* hr.sqlite */,
-				E75918C9264A698000DD51D1 /* ViewController.swift */,
 				E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */,
 				E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */,
 				E75918F6264A72F800DD51D1 /* DepartmentDAO.swift */,
@@ -192,7 +189,7 @@
 				E75918D2264A698200DD51D1 /* LaunchScreen.storyboard in Resources */,
 				E75918CF264A698200DD51D1 /* Assets.xcassets in Resources */,
 				E75918CD264A698000DD51D1 /* Main.storyboard in Resources */,
-				E75918F3264A721000DD51D1 /* hr.sqlite in Resources */,
+				E7D841E8264BB14E001CD8F9 /* hr.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E75918F9264A78FC00DD51D1 /* EmployeeDAO.swift in Sources */,
-				E75918CA264A698000DD51D1 /* ViewController.swift in Sources */,
 				E75918EF264A6BB400DD51D1 /* DepartmentListVC.swift in Sources */,
 				E75918F7264A72F800DD51D1 /* DepartmentDAO.swift in Sources */,
 				E75918F1264A6BC800DD51D1 /* EmployeeListVC.swift in Sources */,
