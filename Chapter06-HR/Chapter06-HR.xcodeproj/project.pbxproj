@@ -22,6 +22,8 @@
 		E75918EF264A6BB400DD51D1 /* DepartmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */; };
 		E75918F1264A6BC800DD51D1 /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */; };
 		E75918F3264A721000DD51D1 /* hr.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E75918F2264A721000DD51D1 /* hr.sqlite */; };
+		E75918F7264A72F800DD51D1 /* DepartmentDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918F6264A72F800DD51D1 /* DepartmentDAO.swift */; };
+		E75918F9264A78FC00DD51D1 /* EmployeeDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75918F8264A78FC00DD51D1 /* EmployeeDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListVC.swift; sourceTree = "<group>"; };
 		E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
 		E75918F2264A721000DD51D1 /* hr.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = hr.sqlite; sourceTree = "<group>"; };
+		E75918F6264A72F800DD51D1 /* DepartmentDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDAO.swift; sourceTree = "<group>"; };
+		E75918F8264A78FC00DD51D1 /* EmployeeDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				E75918C9264A698000DD51D1 /* ViewController.swift */,
 				E75918F0264A6BC800DD51D1 /* EmployeeListVC.swift */,
 				E75918EE264A6BB400DD51D1 /* DepartmentListVC.swift */,
+				E75918F6264A72F800DD51D1 /* DepartmentDAO.swift */,
+				E75918F8264A78FC00DD51D1 /* EmployeeDAO.swift */,
 				E75918CB264A698000DD51D1 /* Main.storyboard */,
 				E75918CE264A698200DD51D1 /* Assets.xcassets */,
 				E75918D0264A698200DD51D1 /* LaunchScreen.storyboard */,
@@ -197,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75918F9264A78FC00DD51D1 /* EmployeeDAO.swift in Sources */,
 				E75918CA264A698000DD51D1 /* ViewController.swift in Sources */,
 				E75918EF264A6BB400DD51D1 /* DepartmentListVC.swift in Sources */,
+				E75918F7264A72F800DD51D1 /* DepartmentDAO.swift in Sources */,
 				E75918F1264A6BC800DD51D1 /* EmployeeListVC.swift in Sources */,
 				E75918EB264A69DF00DD51D1 /* FMDatabasePool.m in Sources */,
 				E75918EC264A69DF00DD51D1 /* FMResultSet.m in Sources */,
